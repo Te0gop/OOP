@@ -1,3 +1,5 @@
+package singleton_pattern;
+
 import java.util.Map;
 
 public interface Singleton {

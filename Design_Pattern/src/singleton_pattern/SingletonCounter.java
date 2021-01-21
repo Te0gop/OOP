@@ -1,3 +1,5 @@
+package singleton_pattern;
+
 import java.util.HashMap;
 import java.util.Map;
 
