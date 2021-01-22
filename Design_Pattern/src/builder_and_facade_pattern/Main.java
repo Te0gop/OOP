@@ -1,4 +1,4 @@
-package builder_pattern;
+package builder_and_facade_pattern;
 
 public class Main {
     public static void main(String[] args) {
