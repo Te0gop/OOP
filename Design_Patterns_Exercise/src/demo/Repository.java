@@ -1,4 +1,4 @@
-package factory_pattern;
+package demo;
 
 import java.util.List;
 

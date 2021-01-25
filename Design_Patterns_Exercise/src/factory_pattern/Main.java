@@ -1,14 +1,10 @@
 package factory_pattern;
 
-import java.util.Scanner;
+import factory_pattern.factories.HeroFactoryImpl;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        int n = Integer.parseInt(scanner.nextLine());
-
-        Service service = new Service();
-        service.save(n);
+        HeroFactoryImpl factory = new HeroFactoryImpl();
+        factory.createHero("Rogue", "Luke", 10);
     }
 }
