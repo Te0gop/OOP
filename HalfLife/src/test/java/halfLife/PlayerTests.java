@@ -46,7 +46,6 @@ public class PlayerTests {
         boolean unmodifiableList = Collections.unmodifiableList(guns).getClass().isInstance(player.getGuns());
 
         assertTrue(unmodifiableList);
-
     }
     @Test
     public void testGetGunsIsModifiableList() {
@@ -112,9 +111,4 @@ public class PlayerTests {
 
         assertNull(actual);
     }
-
-
-
-
-
 }
