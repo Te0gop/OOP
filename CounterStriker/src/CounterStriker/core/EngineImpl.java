@@ -85,7 +85,6 @@ public class EngineImpl implements Engine {
         return controller.addPlayer(type, username, health, armor, gunName);
 
     }
-
     private String start() {
         return controller.startGame();
     }
